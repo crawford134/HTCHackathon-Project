@@ -7,9 +7,12 @@ import Page3 from './Pages/Page3';
 import Page4 from './Pages/Page4';
 import Page5 from './Pages/Page5';
 
+import Header from './Components/Header';
+
 function App() {
   return (
     <div className="root">
+      <Header />
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route exact path="/page2" component={Page2} />
