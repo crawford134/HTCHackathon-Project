@@ -43,6 +43,23 @@
   }
 }
 
+.home-format{
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  padding-left: 830px;
+  padding-top: 250px;
+}
+
+.home-title{
+  color: black;
+  font-size: calc(70px + 2vmin) ;
+}
+
+.quote{
+  color: blue;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -55,4 +72,10 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#player{
+  display: flex;  
+  align-items: center;
+  justify-content: center; 
 }
