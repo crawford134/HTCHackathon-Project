@@ -1,0 +1,96 @@
+[
+    {
+        "taskid": "0",
+        "items":[
+            "Take a Nature Walk",
+            "Eat something healthy",
+            "Drink water",
+            "Spend time with loved ones",
+            "Listen to music",
+            "Write about one thing that made you happy/feel good"
+        ]
+    },
+    {
+        "taskid": "1",
+        "items":[
+            "Listen to music",
+            "Dont forget to Drink water",
+            "Eat something healthy",
+            "Hang out with friends",
+            "Record day in journal"
+        ]
+    },
+    {
+        "taskid": "2",
+        "items":[
+            "Nature walk with a friend",
+            "Get a pet",
+            "Find a support group who you can share your thoughts and feelings with",
+            "Workout (at home or gym) ",
+            "Call a friend or someone you trust to listen to you"
+        ]
+    },
+    {
+        "taskid": "3",
+        "items":[
+            "Make sure you're getting proper sleep",
+            "Eat healthy (avoid junk food (ex: greasy, high sodium, high sugar) ",
+            "Get yourself a bouquet of flowers",
+            "Write about people you admire the most and why you admire them"
+        ]
+    },
+    {
+        "taskid": "4",
+        "items":[
+            "Keep stress in check (know what causes your stress and take a step back to figure out how to relieve yourself of that stress)",
+            "Follow a youtube meditation/yoga practise",
+            "Write a bucket list (about anything and everything (ex: (learn how to cook that meal, become a doctor))",
+            "Write about your dream vacation (with who, where, etc)"
+        ]
+    },
+    {
+        "taskid": "5",
+        "items":[
+            "Have a spa day (facemasks, detox)",
+            "Put yourself in the moment (instead of being distrcted by the past or future",
+            "Write a list about what your grateful for (running hot water, food, air flowing into your lungs)",
+            "Get a diffuser and do aromatherapy (scents that calm you (ex: lavender)"
+        ]
+    },
+    {
+        "taskid": "6",
+        "items":[
+            "Eat a healthy meal (minimize sugar and refined carbs",
+            "Get some sunlight (Go for a walk at the park, open blinds and curtains)",
+            "Make a list about the meals you'd like to cook and go make one of them!",
+            "Make a list about things you love about yourself"
+        ]
+    },
+    {
+        "taskid": "7",
+        "items":[
+            "Be kind to yourself (celebrate the little achevements",
+            "Write down positive affirmations",
+            "Color in a coloring book",
+            "Make a travel bucket list"
+        ]
+    },
+    {
+        "taskid": "8",
+        "items":[
+            "Repeat postive affirmations",
+            "Make small positive changes to your routine that you can stick to",
+            "Play a hypnosis video (can find on youtube, related to your mental state) while you sleep  ",
+            "Paint"
+        ]
+    },
+    {
+        "taskid": "9",
+        "items":[
+            "Cook yourself a meal",
+            "Get plants to take care of",
+            "Socialize",
+            "Make plans with your friends for a vacation"
+        ]
+    }
+]
