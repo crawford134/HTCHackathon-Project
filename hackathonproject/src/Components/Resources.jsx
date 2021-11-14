@@ -25,13 +25,13 @@ export default function Resources(){
     let titleSize= {fontSize: 48}
     return(
         <div>
-            <h1>Resources to help Mental Health and Illness</h1>
-            <AppBar position = 'static'>
+            <h1 style={{paddingTop: '100px'}}>Resources to help Mental Health and Illness</h1>
+            <AppBar position = 'static' style={{backgroundColor: '#9bdb36'}}>
                 <Tabs value={value} onChange={handleTabs} position ='static'>
-                    <Tab label = ' Meditation Videos' />
-                    <Tab label = ' Self Help Books' />
-                    <Tab label = ' CBT Resources' />
-                    <Tab label = 'Links to Therapists' />
+                    <Tab label = ' Meditation Videos' style={{color:'black'}} />
+                    <Tab label = ' Self Help Books' style={{color:'black'}} />
+                    <Tab label = ' CBT Resources' style={{color:'black'}} />
+                    <Tab label = 'Links to Therapists' style={{color:'black'}} />
                 </Tabs>
             </AppBar>
             <TabPanel value={value} index={0} > <h1 style = {titleSize}> Mindfulness </h1>
