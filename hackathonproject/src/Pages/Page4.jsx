@@ -26,16 +26,7 @@ function Page4() {
   const classes = useStyles();
 
   return (
-    <header className="toDo-header">
-      <div className={classes.btnLeft}>
-        <Button variant="contained">Survey</Button>
-      </div>
-      <div className={classes.btnMid}>
-        <Button variant="contained">Mood History</Button>
-      </div>
-      <div className={classes.btnRight}>
-        <Button variant="contained">Resources</Button>
-      </div>
+    <header className="App-header">
       <ToDoComp />
     </header>
   );
