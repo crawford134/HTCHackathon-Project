@@ -5,4 +5,4 @@ function updateSurveyAnswers(answers){
     console.log('SURVEYANSWERS',SURVEYANSWERS)
     }
     
-    export default updateSurveyAnswers
+    export default {SURVEYANSWERS, updateSurveyAnswers}
