@@ -23,6 +23,12 @@ const useStyles = makeStyles((theme) => ({
 }));
 function Page4() {
   const classes = useStyles();
+  const displayToDoLists = () => {
+    return toDoList.map((toDo, i) => {
+      return <h2 className="toDoLists">{toDoList} </h2>;
+    });
+  };
+
   return (
     <header className="toDo-header">
       <div className={classes.btnLeft}>
