@@ -8,7 +8,7 @@ function Page4() {
     <header className="App-header">
       <Header />
       <h1>Try to complete this list:</h1>
-      <ToDoComp />
+      <ToDoComp/>
     </header>
   );
 }

@@ -1,10 +1,12 @@
 import React, { useEffect,useState } from "react";
 import updateSurveyAnswers from "../Data/SurveyAnswers";
-
+import { useHistory } from "react-router";
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 
 
 export default function Survey(){
+    let history = useHistory();
+
     let MCquestions = {
     gender:'',
     age:'',
@@ -60,14 +62,14 @@ export default function Survey(){
 
     }
     const handleSubmit = () => {
-        updateSurveyAnswers(MCq)
-        console.log('handling answers:', MCq)
+        //updateSurveyAnswers(MCq)
+        history.push('/Page4')
+        //console.log('handling answers:', MCq)
     }
     console.log('handle complete')
   return (
-    <form onSubmit={handleSubmit}>
-      <label htmlFor="username">User Name</label>
-      <input type="submit" />
+    <form>
+
         <label>
     Gender:
           <select onChange={myChangeHandler} name="gender" value={MCq.gender}>
@@ -410,7 +412,7 @@ export default function Survey(){
         <br />
         <br />
 
-        <input type="submit" value="Submit" />
+        <input type="submit" value="Submit" onClick={handleSubmit} />
     </form>
     
   );
