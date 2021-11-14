@@ -24,7 +24,7 @@ function HomePage() {
 
   const displayQuote = () => {
     return quotes.map((quote, i) => {
-      if(quote.id === randomId){
+      if(quote.id == randomId){
         return(
           <h2 className = "quote">{quote.quote} </h2>
         )
