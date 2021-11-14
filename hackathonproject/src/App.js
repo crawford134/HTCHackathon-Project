@@ -7,6 +7,7 @@ import Page3 from './Pages/Page3';
 import Page4 from './Pages/Page4';
 
 import Header from './Components/Header';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route exact path="/page3" component={Page3} />
         <Route exact path="/page4" component={Page4} />
       </Switch>
+      <Footer />
     </div>
   );
 }
