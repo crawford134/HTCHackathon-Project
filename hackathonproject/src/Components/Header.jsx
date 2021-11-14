@@ -9,7 +9,7 @@ export default function Header(){
         <div>
             <AppBar>
                 <Toolbar>
-                    <Link to="/" style={{textDecoration: 'none', color:'#fff', paddingLeft:'30px', paddingRight:'30px'}}><Typography variant='h4'>Homepage</Typography></Link>
+                    <Link to="/" style={{textDecoration: 'none', color:'#fff', paddingLeft:'30px', paddingRight:'30px'}}><Typography variant='h4'>Logout</Typography></Link>
                     <Link to="/page2" style={{textDecoration: 'none', color:'#fff', paddingLeft:'30px', paddingRight:'30px'}}><Typography variant='h4'>Resources</Typography></Link>
                     <Link to="/page3" style={{textDecoration: 'none', color:'#fff', paddingLeft:'30px', paddingRight:'30px'}}><Typography variant='h4'>Survey</Typography></Link>
                     <Link to="/page4" style={{textDecoration: 'none', color:'#fff', paddingLeft:'30px', paddingRight:'30px'}}><Typography variant='h4'>To Do List</Typography></Link>
