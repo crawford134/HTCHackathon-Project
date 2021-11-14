@@ -12,6 +12,7 @@ export default function ToDoComp() {
           type="checkbox"
           name={`nameofchoice${index}`}
           value={todolist[key]}
+          style={{height:"50px", width:"50px"}}
         ></input>
         <label>{todolist[key]}</label>
       </div>
