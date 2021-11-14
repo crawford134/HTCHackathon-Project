@@ -5,11 +5,10 @@ import { useHistory } from 'react-router-dom';
 
 let uname = ACCOUNT_NAME.username
 let pass = ACCOUNT_NAME.password
-
+const randomId = Math.floor(Math.random() * 7)
 
 function HomePage() {
   let history = useHistory();
-  const randomId = Math.floor(Math.random() * 7)
 
   const [quotes, setQuotes] = useState([]);
     useEffect(() => {
@@ -31,6 +30,7 @@ function HomePage() {
       }
     });
   }
+
   const [values, setValues] = useState({
     username: "",
     password: ""
@@ -55,14 +55,13 @@ function HomePage() {
   return (
     <div className="App">
       <header className="App-header">
-      <h1 className = "home-title">Welcome to Positive Mind</h1>
+      <h1 className = "home-title"  style={{color:'#fff', paddingTop:'30px'}}>Welcome to Positive Mind</h1>
       <img src="/PM_Logo.png"/>
       {displayQuote()}
         <div style={{paddingBottom:"100px"}}>
             <form>
               <label>Username:</label>  
               <input type="text" value={values.username} onChange={handleUsernameChange}/>
-
               <label>Password:</label>
               <input type="text" value={values.password} onChange={handlePasswordChange}/>
               <br></br>
