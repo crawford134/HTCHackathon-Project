@@ -4,7 +4,7 @@ import Survey from '../Components/Survey';
 
 function Page3() {
   return (
-    <div className="test">
+    <div className="BG-color">
       <header className = 'Questions'> 
       <Survey/>
       </header>

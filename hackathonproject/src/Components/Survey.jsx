@@ -61,11 +61,11 @@ export default function Survey(){
     }
     const handleSubmit = () => {
         updateSurveyAnswers(MCq)
-        console.log('handling answers')
+        console.log('handling answers:', MCq)
     }
     console.log('handle complete')
   return (
-    <form>
+    <form onSubmit={handleSubmit}>
       <label htmlFor="username">User Name</label>
       <input type="submit" />
       
@@ -416,7 +416,7 @@ export default function Survey(){
         <br />
         <br />
 
-        <input onClick={handleSubmit} type="submit" value="Submit" />
+        <input type="submit" value="Submit" />
     </form>
     
   );
