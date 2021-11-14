@@ -38,13 +38,15 @@ export default function Resources(){
            <p style = {styleobj}> Mindfulness is a type of meditation in which the user's goal is to become aware or focused on what you are feeling in the moment. 
            Many users attemping to help have created thousands of videos on youtube. If you have 10 - 15 minutes, close your eyes and try out these mindfulness practicing videos!</p>
             <div id = "player">
-            <ReactPlayer 
-            url = "https://www.youtube.com/watch?v=ZToicYcHIOU"
-            /></div>
+                <ReactPlayer 
+                url = "https://www.youtube.com/watch?v=ZToicYcHIOU"
+                />
+            </div>
             <div id = "player">
-            <ReactPlayer
-            url = "https://www.youtube.com/watch?v=6p_yaNFSYao"
-            /></div>
+                <ReactPlayer
+                url = "https://www.youtube.com/watch?v=6p_yaNFSYao"
+                />
+            </div>
             <p style = {styleobj}> if you liked those videos and want to find more, here is a direct <a href = "https://www.youtube.com/results?search_query=mindfulness+meditation">link</a>to the search on YouTube.</p>
             </TabPanel>
             <TabPanel value={value} index={1} > <h1 style = {titleSize}>Self Help Books </h1>
@@ -67,21 +69,23 @@ export default function Resources(){
             <div id = 'player'>
                 <ReactPlayer
                 url = "https://www.youtube.com/watch?v=q6aAQgXauQw"
-                /> </div>
+                />
+            </div>
             <p style = {styleobj}>If you are still confused on how Cognitive BehavioralTherapy works here is another video to watch to understand!</p>
             <div id = "player">
                 <ReactPlayer
                 url = "https://www.youtube.com/watch?v=ZdyOwZ4_RnI">
-                </ReactPlayer></div>
+                </ReactPlayer>
+            </div>
             <p style = {styleobj}>This method is often used and has been approved by the American Psychology Association. They have even written a small article explaining the goals and benefits of it. 
             This article can be found <a href = "https://www.apa.org/ptsd-guideline/patients-and-families/cognitive-behavioral"> here</a></p>
             </TabPanel>
             <TabPanel value={value} index={3} ><h1 style = {titleSize}> Find Help</h1>
             <p style = {styleobj}>While you may believe you are alone in facing these issues, millions everywhere are also struggling with their mental help. You are not alone in this struggle are there are people out there to help you.
             If you would like meet with a therapist we have recommened these links below!</p>
-            <a href = "https://calgarycounselling.com/about">
-            <img src= "https://i.ytimg.com/vi/Aq8NSk9SUEE/maxresdefault.jpg" />
-            </a>
+                <a href = "https://calgarycounselling.com/about">
+                <img src= "https://i.ytimg.com/vi/Aq8NSk9SUEE/maxresdefault.jpg" />
+                </a>
             <p style = {styleobj}> Calgary counselling is a charitable organization for any calgarians struggling with mental health and/or mental illness. 
             With the calgary counselling center, you can state your income and they charge you based on your income. They also assure your therapist is not based off of the income. It allows those who may be struggling financially to seek help!
             </p> 
