@@ -4,8 +4,8 @@ import Survey from '../Components/Survey';
 
 function Page3() {
   return (
-    <div className = 'Questions'>
-      <header> 
+    <div className="test">
+      <header className = 'Questions'> 
       <Survey/>
       </header>
     </div>

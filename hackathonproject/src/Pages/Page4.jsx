@@ -24,10 +24,12 @@ const useStyles = makeStyles((theme) => ({
 }));
 function Page4() {
   const classes = useStyles();
-
+  let styleobj = {fontSize: 18}
   return (
     <header className="App-header">
+      <h1>Try to complete this list:</h1>
       <ToDoComp />
+      <h1 style={styleobj}>We are not certified therapists. IF this to do list does not help, or you are having suicidal thoughts we recommend going to a therapist</h1>
     </header>
   );
 }
