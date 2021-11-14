@@ -68,12 +68,6 @@ export default function Survey(){
     <form onSubmit={handleSubmit}>
       <label htmlFor="username">User Name</label>
       <input type="submit" />
-      
-      
-
-        <br />
-        <br />
-        <br />
         <label>
     Gender:
           <select onChange={myChangeHandler} name="gender" value={MCq.gender}>

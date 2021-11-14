@@ -1,7 +1,7 @@
 import React from "react";
-import Button from "@material-ui/core/Button";
+import Header from '../Components/Header';
 import { makeStyles } from "@material-ui/core/styles";
-import ToDoComp from "../Components/ToDoComp";
+import ToDoComp from "../Components/ToDoComp.jsx";
 const useStyles = makeStyles((theme) => ({
   btnLeft: {
     textAlign: "left",
@@ -26,6 +26,7 @@ function Page4() {
   const classes = useStyles();
   return (
     <header className="App-header">
+      <Header />
       <h1>Try to complete this list:</h1>
       <ToDoComp />
     </header>
