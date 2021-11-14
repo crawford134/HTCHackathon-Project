@@ -1,5 +1,6 @@
 import React, { useEffect,useState } from "react";
 import updateSurveyAnswers from "../Data/SurveyAnswers";
+import { useHistory } from 'react-router-dom';
 
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 
@@ -62,6 +63,8 @@ export default function Survey(){
     const handleSubmit = () => {
         updateSurveyAnswers(MCq)
         console.log('handling answers:', MCq)
+        history.push('/Page4')
+
     }
     console.log('handle complete')
   return (
