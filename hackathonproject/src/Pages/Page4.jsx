@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "@material-ui/core/Button";
 import { makeStyles } from "@material-ui/core/styles";
-import ToDoComp from "../Components/ToDoComp";
+import ToDoComp from "../Components/toDoComp";
 const useStyles = makeStyles((theme) => ({
   btnLeft: {
     textAlign: "left",
