@@ -79,7 +79,7 @@ code {
   align-items: center;
   justify-content: center; 
 }
-.test{
+.BG-color{
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
