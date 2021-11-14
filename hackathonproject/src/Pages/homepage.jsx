@@ -9,7 +9,7 @@ let pass = ACCOUNT_NAME.password
 
 function HomePage() {
   let history = useHistory();
-  const randomId = Math.floor(Math.random() * 2)
+  const randomId = Math.floor(Math.random() * 7)
 
   const [quotes, setQuotes] = useState([]);
     useEffect(() => {
@@ -48,7 +48,7 @@ function HomePage() {
     if(values.username == uname && values.password == pass){
        history.push('/Page2')
     } else{
-      alert("Your Username or password was incorrect!")
+      alert("Your Username or password was incorrect, Please try again!")
     }
   }
 
@@ -58,14 +58,14 @@ function HomePage() {
       <h1 className = "home-title">Welcome to Positive Mind</h1>
       <img src="/PM_Logo.png"/>
       {displayQuote()}
-        <div className ="home-format">
+        <div style={{paddingBottom:"100px"}}>
             <form>
               <label>Username:</label>  
               <input type="text" value={values.username} onChange={handleUsernameChange}/>
 
               <label>Password:</label>
               <input type="text" value={values.password} onChange={handlePasswordChange}/>
-              
+              <br></br>
               <input type="submit" value="Login" onClick = {handleSubmit}/>
             </form>
         </div>

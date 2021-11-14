@@ -45,7 +45,7 @@ export default function Survey(){
       }, [MCq]) 
     
 
-     const myChangeHandler = async (event) => { 
+    const myChangeHandler = async (event) => { 
         let nam = event.target.name;
         let val = event.target.value;
 
@@ -59,7 +59,7 @@ export default function Survey(){
         setMultipleChoiceQuestions({...MCq, [nam]: event.target.value})        
 
     }
-    const handleSubmit = ()=> {
+    const handleSubmit = () => {
         updateSurveyAnswers(MCq)
         console.log('handling answers')
     }
@@ -416,7 +416,7 @@ export default function Survey(){
         <br />
         <br />
 
-    <input onClick={handleSubmit} type="submit" value="Submit" />
+        <input onClick={handleSubmit} type="submit" value="Submit" />
     </form>
     
   );
