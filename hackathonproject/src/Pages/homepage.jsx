@@ -63,7 +63,7 @@ function HomePage() {
               <label>Username:</label>  
               <input type="text" value={values.username} onChange={handleUsernameChange}/>
               <label>Password:</label>
-              <input type="text" value={values.password} onChange={handlePasswordChange}/>
+              <input type="password" value={values.password} onChange={handlePasswordChange}/>
               <br></br>
               <input type="submit" value="Login" onClick = {handleSubmit}/>
             </form>
