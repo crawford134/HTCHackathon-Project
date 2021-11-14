@@ -24,7 +24,7 @@ function HomePage() {
 
   const displayQuote = () => {
     return quotes.map((quote, i) => {
-      if(quote.id == randomId){
+      if(quote.id === randomId){
         return(
           <h2 className = "quote">{quote.quote} </h2>
         )
@@ -45,13 +45,14 @@ function HomePage() {
   }
 
   const handleSubmit = () => {
-    if(values.username == uname && values.password == pass){
-       history.push('/Page3')
+    if(values.username === uname && values.password === pass){
+       history.push('/Page2')
     }
   }
 
   return (
     <div className="App">
+        <header className="App-header">
       <h1 className = "home-title">Welcome to Positive Mind</h1>
         <div className ="home-format">
             {displayQuote()}
@@ -65,6 +66,7 @@ function HomePage() {
               <input type="submit" value="Login" onClick = {handleSubmit}/>
             </form>
         </div>
+        </header>
     </div>
   );
 }
