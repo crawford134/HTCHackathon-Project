@@ -45,17 +45,20 @@ function HomePage() {
   }
 
   const handleSubmit = () => {
-    if(values.username === uname && values.password === pass){
+    if(values.username == uname && values.password == pass){
        history.push('/Page2')
+    } else{
+      alert("Your Username or password was incorrect!")
     }
   }
 
   return (
     <div className="App">
-        <header className="App-header">
+      <header className="App-header">
       <h1 className = "home-title">Welcome to Positive Mind</h1>
+      <img src="/PM_Logo.png"/>
+      {displayQuote()}
         <div className ="home-format">
-            {displayQuote()}
             <form>
               <label>Username:</label>  
               <input type="text" value={values.username} onChange={handleUsernameChange}/>
