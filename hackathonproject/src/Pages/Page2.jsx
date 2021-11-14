@@ -6,10 +6,6 @@ function Page2() {
     <div className="App">
       <header className="App-header">
         <Resources />
-
-
-
-        
       </header>
     </div>
   );
