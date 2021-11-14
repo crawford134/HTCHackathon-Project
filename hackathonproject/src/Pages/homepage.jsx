@@ -46,7 +46,7 @@ function HomePage() {
 
   const handleSubmit = (event) => {
     if(values.username == uname && values.password == pass){
-       history.push('/Page2')
+       history.push('/Page3')
     }
   }
 
