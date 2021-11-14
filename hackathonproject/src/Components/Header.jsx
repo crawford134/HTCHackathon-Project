@@ -9,11 +9,10 @@ export default function Header(){
         <div>
             <AppBar>
                 <Toolbar>
-                    <Link to="/" >Homepage</Link>
-                    <Link to="/page2" >page2</Link>
-                    <Link to="/page3" >page3</Link>
-                    <Link to="/page4" >page4</Link>
-                    <Link to="/page5" >page5</Link>
+                    <Link to="/" ><Typography>Homepage</Typography></Link>
+                    <Link to="/page2" ><Typography>Resources</Typography></Link>
+                    <Link to="/page3" ><Typography>Survey</Typography></Link>
+                    <Link to="/page4" ><Typography>To Do List</Typography></Link>
                 </Toolbar>
             </AppBar>
         </div>
