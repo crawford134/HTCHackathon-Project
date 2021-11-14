@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "@material-ui/core/Button";
 import { makeStyles } from "@material-ui/core/styles";
+import ToDoComp from "../Components/ToDoComp";
 const useStyles = makeStyles((theme) => ({
   btnLeft: {
     textAlign: "left",
@@ -23,11 +24,6 @@ const useStyles = makeStyles((theme) => ({
 }));
 function Page4() {
   const classes = useStyles();
-  const displayToDoLists = () => {
-    return toDoList.map((toDo, i) => {
-      return <h2 className="toDoLists">{toDoList} </h2>;
-    });
-  };
 
   return (
     <header className="toDo-header">
@@ -40,6 +36,7 @@ function Page4() {
       <div className={classes.btnRight}>
         <Button variant="contained">Resources</Button>
       </div>
+      <ToDoComp />
     </header>
   );
 }

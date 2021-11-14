@@ -1,16 +1,21 @@
 import React from "react";
-const [toDoListInstance, toDoLists] = useState([]);
-useEffect(() => {
-  fetch("./Data/toDoLists.json")
-    .then((res) => {
-      return res.json();
-    })
-    .then((data) => {
-      toDoLists(data);
-    });
-}, []);
-const displayToDoLists = () => {
-  return toDoListInstance.map((toDoLists, i) => {
-    return <h2 className="toDoLists">{toDoLists} </h2>;
+import TODODATA from "../Data/toDoLists";
+
+export default function ToDoComp() {
+  let todolist = TODODATA.toDoLists.sadToDoList1;
+  console.log(todolist);
+  let todolistcomponent = Object.keys(todolist).map(function (key, index) {
+    return (
+      <div>
+        <input
+          key={index}
+          type="checkbox"
+          name={`nameofchoice${index}`}
+          value={todolist[key]}
+        ></input>
+        <label>{todolist[key]}</label>
+      </div>
+    );
   });
-};
+  return <div>{todolistcomponent}</div>;
+}
