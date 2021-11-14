@@ -44,7 +44,7 @@ function HomePage() {
     setValues({...values, password: event.target.value})
   }
 
-  const handleSubmit = (event) => {
+  const handleSubmit = () => {
     if(values.username == uname && values.password == pass){
        history.push('/Page3')
     }
@@ -55,14 +55,14 @@ function HomePage() {
       <h1 className = "home-title">Welcome to Positive Mind</h1>
         <div className ="home-format">
             {displayQuote()}
-            <form onSubmit={handleSubmit()}>
+            <form>
               <label>Username:</label>  
               <input type="text" value={values.username} onChange={handleUsernameChange}/>
 
               <label>Password:</label>
               <input type="text" value={values.password} onChange={handlePasswordChange}/>
               
-              <input type="submit" value="Login"/>
+              <input type="submit" value="Login" onClick = {handleSubmit}/>
             </form>
         </div>
     </div>
