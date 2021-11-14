@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/HTCHackathon-Project/static/css/main.2e4fdf44.chunk.css",
-    "main.js": "/HTCHackathon-Project/static/js/main.3e7a76f9.chunk.js",
-    "main.js.map": "/HTCHackathon-Project/static/js/main.3e7a76f9.chunk.js.map",
+    "main.js": "/HTCHackathon-Project/static/js/main.a249e425.chunk.js",
+    "main.js.map": "/HTCHackathon-Project/static/js/main.a249e425.chunk.js.map",
     "runtime-main.js": "/HTCHackathon-Project/static/js/runtime-main.e49f022a.js",
     "runtime-main.js.map": "/HTCHackathon-Project/static/js/runtime-main.e49f022a.js.map",
     "static/js/2.f4dcfebe.chunk.js": "/HTCHackathon-Project/static/js/2.f4dcfebe.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.e49f022a.js",
     "static/js/2.f4dcfebe.chunk.js",
     "static/css/main.2e4fdf44.chunk.css",
-    "static/js/main.3e7a76f9.chunk.js"
+    "static/js/main.a249e425.chunk.js"
   ]
 }
